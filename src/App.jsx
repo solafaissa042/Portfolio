@@ -17,9 +17,9 @@ const App = () => {
     document.body.className = dark ? "dark" : "light";
   }, [dark]);
 
-  /* useEffect(() => {
+  useEffect(() => {
     AOS.init({ duration: 1000 });
-  }, []); */
+  }, []);
 
   return (
     <div>
